@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-size: 1.2rem;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1rem solid black;
+    width: 100%;
+    background: rgba(0, 128, 0, 0.178);
+    top: 0;
+}
+
+#header-img {
+    height: 8rem;
+    width: auto;
+}
+
+#nav-bar {
+    position: fixed;
+    right: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 8rem;
+}
+
+.nav-link {
+    font-size: 5rem;
+    list-style: none;
+}
+
+.nav-link a:link,
+.nav-link a:visited {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-link a:hover,
+.nav-link a:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+#about {
+    /* background: green; */
+    height: 100vh;
+    margin: 8rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video {
+    height: 80rem;
+    width: 100rem;
+    border: 0.5rem solid black;
+}
+
+@media (max-width: 100em) {
+    header {
+        background: red;
+    }
+}
+
+#form {
+}
+
+.heading {
+    font-size: 5rem;
+}
+
+#home {
+    height: 100vh;
+    background: rgb(196, 142, 142);
+}
+
+#contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    height: 3rem;
+    width: 20rem;
+}
